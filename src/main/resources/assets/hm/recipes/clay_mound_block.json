@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " C ",
+        "C C",
+        "CCC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:clay"
+        }
+    },
+    
+    "result":
+    {
+        "item": "hm:clay_mound_block",
+        "count": 1
+    }
+}
