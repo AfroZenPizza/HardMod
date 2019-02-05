@@ -1,1 +1,5 @@
+//Items
 item.mud.name=Mud
+
+//Blocks
+tile.mud_block.name=Mud Block
