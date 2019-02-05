@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "hm:clay_mound_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:clay_ball",
+        "count": 5
+    }
+}
