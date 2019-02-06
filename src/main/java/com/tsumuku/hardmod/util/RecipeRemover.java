@@ -11,10 +11,10 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.registries.ForgeRegistry;
 import net.minecraftforge.registries.RegistryManager;
 
-public class RecipeManager extends ForgeRegistries
+public class RecipeRemover extends ForgeRegistries
 {
 
-	public RecipeManager( Item item )
+	public RecipeRemover( Item item )
 	{
 		
 		ForgeRegistry<IRecipe> recipe = ( ForgeRegistry<IRecipe> ) RECIPES;
@@ -23,7 +23,7 @@ public class RecipeManager extends ForgeRegistries
 		CraftingManager.init();
 		
 	}
-	public RecipeManager( ItemStack itemstack )
+	public RecipeRemover( ItemStack itemstack )
 	{
 		
 		ForgeRegistry<IRecipe> recipe = ( ForgeRegistry<IRecipe> ) RECIPES;
@@ -33,7 +33,7 @@ public class RecipeManager extends ForgeRegistries
 		CraftingManager.init();
 		
 	}
-	public RecipeManager( Block block )
+	public RecipeRemover( Block block )
 	{
 		
 		ForgeRegistry<IRecipe> recipe = ( ForgeRegistry<IRecipe> ) RECIPES;
