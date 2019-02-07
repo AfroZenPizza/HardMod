@@ -5,8 +5,10 @@ import java.util.List;
 
 import com.tsumuku.hardmod.util.RecipeRemover;
 
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class VanillaRecipeRemover {
 	public VanillaRecipeRemover() 
@@ -32,6 +34,8 @@ public class VanillaRecipeRemover {
 		removedItems.add(Items.DIAMOND_PICKAXE);
 		removedItems.add(Items.DIAMOND_SHOVEL);
 		removedItems.add(Items.DIAMOND_SWORD);
+		
+		removedItems.add(Items.COAL);
 		
 		for ( Item i : removedItems) {
 			new RecipeRemover(i);
