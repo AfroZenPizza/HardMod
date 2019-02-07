@@ -19,7 +19,7 @@ public class RecipeRemover extends ForgeRegistries
 		
 		ForgeRegistry<IRecipe> recipe = ( ForgeRegistry<IRecipe> ) RECIPES;
 		recipe.remove(item.getRegistryName());
-		CraftingHelper.loadRecipes(false);
+		CraftingHelper.loadRecipes( false );
 		CraftingManager.init();
 		
 	}
@@ -29,7 +29,7 @@ public class RecipeRemover extends ForgeRegistries
 		ForgeRegistry<IRecipe> recipe = ( ForgeRegistry<IRecipe> ) RECIPES;
 		Item item = itemstack.getItem();
 		recipe.remove(item.getRegistryName());
-		CraftingHelper.loadRecipes(false);
+		CraftingHelper.loadRecipes( false );	
 		CraftingManager.init();
 		
 	}
