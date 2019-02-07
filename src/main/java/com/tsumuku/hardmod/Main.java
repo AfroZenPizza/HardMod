@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.tsumuku.hardmod.proxy.CommonProxy;
+import com.tsumuku.hardmod.util.RecipeLoader;
 import com.tsumuku.hardmod.util.RecipeRemover;
 import com.tsumuku.hardmod.util.Reference;
 import com.tsumuku.hardmod.util.handlers.VanillaRecipeRemover;
@@ -46,6 +47,7 @@ public class Main {
 	public static void PostInit(FMLPostInitializationEvent event) 
 	{
 		new VanillaRecipeRemover();
+		new RecipeLoader(Items.WOODEN_HOE, new Object[] {"CCC", "C C", "CCC", 'C', Items.CLAY_BALL});
 				
 	}
 }
