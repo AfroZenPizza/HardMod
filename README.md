@@ -24,6 +24,11 @@ Place the download in the mods folder
 
 ## TODO
 * Add customer block metadata
-* Disable default recipes
+* Disable default recipes,  Method now exists to remove recipes. All default tools uncraftable.
 * Modify default block metadata
 * Add many many items
+* Make Clay Mound Gui for crafting Charcoal
+* Torches will have limited burn time and will not use coal, Coal burns hot and without a flame. Very odd choice for torch, ossibly replace with oils and tinder
+* Add dropped leaves and sticks in forest
+* Add way to dry wood
+* Add embers
