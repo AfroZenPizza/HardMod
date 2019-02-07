@@ -1,5 +1,5 @@
 # HardMod
-Minecraft Forge mod intended to increase the difficulty and realism of Minecraft  
+Minecraft Forge mod intended to increase the difficulty and realism of Minecraft. Using real life, and practical applications of crafting as influence. See also all the primitive technology channels on Youtube for inspiration.
 
 
 ## Getting Started
