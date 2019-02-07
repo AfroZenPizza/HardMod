@@ -12,6 +12,5 @@ import net.minecraft.item.Item;
 public class ModItems {
 
 	public static final List<Item> ITEMS = new ArrayList<Item>();
-	public static final Item MUD = new ItemBase("mud");
-	
+	public static final Item WOOL_CLOTH = new ItemBase("wool_cloth");
 }
