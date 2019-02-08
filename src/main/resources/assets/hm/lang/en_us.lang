@@ -1,5 +1,6 @@
 //Items
 item.wool_cloth.name=Wool Cloth
+item.seed_oil.name=Seed Oil
 
 //Blocks
 tile.mud_block.name=Mud Block
