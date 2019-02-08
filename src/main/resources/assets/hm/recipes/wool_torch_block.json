@@ -3,7 +3,7 @@
     
     "pattern":
     [
-        "  W",
+        " OW",
         " S ",
         "S  "
     ],    
@@ -16,6 +16,10 @@
         "W":
         {
             "item": "hm:wool_cloth"
+        },
+        "O":
+        {
+            "item": "hc:seed_oil"
         }
     },
     

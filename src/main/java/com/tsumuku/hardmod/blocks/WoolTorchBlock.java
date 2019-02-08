@@ -23,35 +23,19 @@ import net.minecraftforge.client.model.IModel;
 public class WoolTorchBlock extends BlockTorch implements IHasModel{
 	
 	public WoolTorchBlock(String name) {		
-		//setUnlocalizedName(name);		
 		setHardness( 0.5F );
 		setResistance( 0.5F );
-		setLightLevel( 50.0f ); 
+		setLightLevel( 1.0f ); 
 		setLightOpacity( 1 );
 		
 		setUnlocalizedName( name );
 		setRegistryName( name );
-		setCreativeTab( CreativeTabs.BUILDING_BLOCKS );
+		setCreativeTab( CreativeTabs.DECORATIONS );
 		
 		ModBlocks.BLOCKS.add( this );
 		ModItems.ITEMS.add( new ItemBlock( this ).setRegistryName( this.getRegistryName() ) );
 	}
-	
-	  public boolean isOpaqueCube(IBlockState state)
-	    {
-	        return false;
-	    }
-
-	    public boolean isFullCube(IBlockState state)
-	    {
-	        return false;
-	    }
-
-	    private boolean canPlaceOn(World worldIn, BlockPos pos)
-	    {
-	        IBlockState state = worldIn.getBlockState(pos);
-	        return state.getBlock().canPlaceTorchOnTop(state, worldIn, pos);
-	    }
+		  
 	
 	@Override
 	public void registerModels() 
