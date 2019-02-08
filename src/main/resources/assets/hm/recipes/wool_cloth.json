@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wool",
+            "data": 0
+        }
+    ],
+    "result": {
+        "item": "hm:wool_cloth",
+        "count": 8
+    }
+}
