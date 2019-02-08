@@ -1,0 +1,6 @@
+{
+   "parent": "block/torch",
+   "textures": {
+       "torch": "hm:blocks/wool_torch_block"
+   }
+}
