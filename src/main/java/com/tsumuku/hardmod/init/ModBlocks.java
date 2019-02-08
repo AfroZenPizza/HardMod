@@ -15,8 +15,8 @@ public class ModBlocks
 
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
-	public static final Block MUD_BLOCK = new MudBlock("mud_block", Material.CLAY);
-	public static final Block CLAY_MOUND_BLOCK = new BlockBase("clay_mound_block", Material.CLAY);
-	public static final Block WOOL_TORCH = new WoolTorchBlock("wool_torch_block");
+	public static final Block MUD_BLOCK = new MudBlock( "mud_block", Material.CLAY );
+	public static final Block CLAY_MOUND_BLOCK = new BlockBase( "clay_mound_block", Material.CLAY );
+	public static final Block WOOL_TORCH = new WoolTorchBlock( "wool_torch_block" );
 	
 }

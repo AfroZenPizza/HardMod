@@ -47,7 +47,7 @@ public class Main {
 	public static void PostInit(FMLPostInitializationEvent event) 
 	{
 		new VanillaRecipeRemover();
-		new RecipeLoader(Items.WOODEN_HOE, new Object[] {"CCC", "C C", "CCC", 'C', Items.CLAY_BALL});
-				
+		//new RecipeLoader(Items.WOODEN_HOE, new Object[] {"CCC", "C C", "CCC", 'C', Items.CLAY_BALL});
+		//Exmaple of using Recipie loader for later development
 	}
 }
