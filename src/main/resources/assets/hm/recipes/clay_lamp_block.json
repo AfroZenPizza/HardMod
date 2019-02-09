@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "O ",
+        "CC"        
+    ],    
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:clay_ball"
+        },
+        "O":
+        {
+            "item": "hm:seed_oil"
+        }
+    },
+    
+    "result":
+    {
+        "item": "hm:clay_lamp_block",
+        "count": 4
+    }
+}

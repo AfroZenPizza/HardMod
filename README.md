@@ -32,3 +32,4 @@ Place the download in the mods folder
 * Add dropped leaves and sticks in forest
 * Add way to dry wood
 * Add embers
+* Make clay lamp model and texture
