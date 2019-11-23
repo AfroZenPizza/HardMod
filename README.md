@@ -1,3 +1,6 @@
+# Dead
+If you want something of this vain there are a lot of mods that bring this in seperately now. RLCraft is pretty fun, though it needs a few mods for my taste.
+
 # HardMod
 Minecraft Forge mod intended to increase the difficulty and realism of Minecraft. Using real life, and practical applications of crafting as influence. See also all the primitive technology channels on Youtube for inspiration.
 
